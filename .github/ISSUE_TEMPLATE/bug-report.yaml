@@ -16,7 +16,16 @@ body:
       label: Version
       description: |
         Version of SpoofDPI that you are currently using
-        This can be shown by running "spoof-dpi -v" in terminal
+        This can be shown by running "spoofdpi -v" in terminal
+    validations:
+      required: true
+
+  - type: input
+    id: country 
+    attributes:
+      label: Country
+      description: |
+        The name of the country where you currently are
     validations:
       required: true
 
