@@ -4,9 +4,9 @@
 
 SpoofDPI is a simple proxy tool, mainly designed to neutralize the _Deep Packet Inspection (DPI)_ techniques that power many internet censorship systems.
 
-For more detailed information, please refer to the [Official Documentation](https://spoofdpi.xvzc.dev).
+For more detailed information, please refer to the [Official Documentation](https://spoofdpi.umitaltintas.dev).
 
-[Join our Discord channel](https://spoofdpi.xvzc.dev) for discussions (If you can 😅).
+[Join our Discord channel](https://spoofdpi.umitaltintas.dev) for discussions (If you can 😅).
 
 ## 📦 Packaging Status
 
@@ -16,7 +16,7 @@ For more detailed information, please refer to the [Official Documentation](http
 
 ## ☕ Github Sponsors
 
-Your sponsorship directly fuels the motivation required for continued project maintenance. If you find SpoofDPI valuable, please consider supporting [@xvzc on Github](https://github.com/sponsors/xvzc).
+Your sponsorship directly fuels the motivation required for continued project maintenance. If you find SpoofDPI valuable, please consider supporting [@umitaltintas on Github](https://github.com/sponsors/umitaltintas).
 
 ## 💡 Inspirations
 

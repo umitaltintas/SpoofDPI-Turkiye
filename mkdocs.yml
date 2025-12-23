@@ -1,13 +1,13 @@
 # Site configuration
 site_name: SpoofDPI
-site_description: 'Lightweight and fast DPI circumvention tool.'
-site_author: 'xvzc'
-copyright: Copyright © 2025 xvzc. All rights reserved.
-repo_url: https://github.com/xvzc/SpoofDPI
-repo_name: 'xvzc/SpoofDPI'
+site_description: "Lightweight and fast DPI circumvention tool."
+site_author: "umitaltintas"
+copyright: Copyright © 2025 umitaltintas. All rights reserved.
+repo_url: https://github.com/umitaltintas/SpoofDPI
+repo_name: "umitaltintas/SpoofDPI"
 
 extra_css:
- - style.css
+  - style.css
 
 # Theme configuration
 theme:
@@ -19,20 +19,20 @@ theme:
   icon:
     repo: fontawesome/brands/github
   palette:
-  - media: '(prefers-color-scheme: light)'
-    scheme: default
-    primary: black
-    accent: indigo
-    toggle:
-      icon: material/weather-night
-      name: Switch to dark mode
-  - media: '(prefers-color-scheme: dark)'
-    scheme: slate
-    primary: black
-    accent: indigo
-    toggle:
-      icon: material/weather-sunny
-      name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - toc.follow
     - navigation.expand
@@ -49,27 +49,27 @@ theme:
 
 # Navigation menu
 nav:
-  - 'Getting Started':
-    - 'Introduction': getting-started/introduction.md
-    - 'Install': getting-started/install.md
-    - 'Quick Start': getting-started/quick-start.md
-  - 'User Guide':
-    - 'Overview': user-guide/overview.md
-    - 'Options':
-      - 'General': user-guide/general.md
-      - 'Server': user-guide/server.md
-      - 'DNS': user-guide/dns.md
-      - 'HTTPS': user-guide/https.md
-      - 'Policy': user-guide/policy.md
-    - 'Configuration Examples': user-guide/examples.md
-    # - 'Geographical Recipes': 
+  - "Getting Started":
+      - "Introduction": getting-started/introduction.md
+      - "Install": getting-started/install.md
+      - "Quick Start": getting-started/quick-start.md
+  - "User Guide":
+      - "Overview": user-guide/overview.md
+      - "Options":
+          - "General": user-guide/general.md
+          - "Server": user-guide/server.md
+          - "DNS": user-guide/dns.md
+          - "HTTPS": user-guide/https.md
+          - "Policy": user-guide/policy.md
+      - "Configuration Examples": user-guide/examples.md
+    # - 'Geographical Recipes':
     #   - 'South Korea': user-guide/configuration-recipes/south-korea.md
-  - 'Developer Guide':
-    - 'Commit Messages': developer-guide/commit-messages.md
-    - 'Code Quality': developer-guide/code-quality.md
-    - 'Build and Run': developer-guide/build-and-run.md
-    - 'Testing': developer-guide/testing.md
-    - 'Documentation': developer-guide/documentation.md
+  - "Developer Guide":
+      - "Commit Messages": developer-guide/commit-messages.md
+      - "Code Quality": developer-guide/code-quality.md
+      - "Build and Run": developer-guide/build-and-run.md
+      - "Testing": developer-guide/testing.md
+      - "Documentation": developer-guide/documentation.md
 
 # Extensions
 markdown_extensions:

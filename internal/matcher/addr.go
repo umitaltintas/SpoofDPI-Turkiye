@@ -6,8 +6,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 // AddrMatcher implements Matcher for IP/CIDR rules.

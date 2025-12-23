@@ -3,7 +3,7 @@ package packet
 import (
 	"net"
 
-	"github.com/xvzc/SpoofDPI/internal/cache"
+	"github.com/umitaltintas/SpoofDPI/internal/cache"
 )
 
 type Sniffer interface {

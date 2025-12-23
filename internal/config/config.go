@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/proto"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/proto"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 type merger[T any] interface {

@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/cache"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/cache"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
 )
 
 // CacheResolver is a decorator that adds caching functionality to another Resolver.

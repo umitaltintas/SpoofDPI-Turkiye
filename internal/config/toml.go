@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 func fromTomlFile(dir string) (*Config, error) {

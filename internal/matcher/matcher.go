@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 // -----------------------------------------------------------------------------

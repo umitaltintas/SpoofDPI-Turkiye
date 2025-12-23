@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/logging"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 type RouteResolver struct {

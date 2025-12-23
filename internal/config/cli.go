@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/urfave/cli/v3"
-	"github.com/xvzc/SpoofDPI/internal/proto"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/proto"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 func CreateCommand(
@@ -46,7 +46,7 @@ func CreateCommand(
 				Name:    "config",
 				Aliases: []string{"c"},
 				Usage: `
-				Custom location of the config file to load. Options given through the command 
+				Custom location of the config file to load. Options given through the command
 				line flags will override the options set in this file.`,
 				OnlyOnce: true,
 				Sources:  cli.EnvVars("SPOOFDPI_CONFIG"),
@@ -113,7 +113,7 @@ func CreateCommand(
 			&cli.StringFlag{
 				Name: "dns-https-url",
 				Usage: fmt.Sprintf(`<https_url>
-				Endpoint URL for DNS over HTTPS (DoH) queries. 
+				Endpoint URL for DNS over HTTPS (DoH) queries.
 				(default: %q)`,
 					*defaultCfg.DNS.HTTPSURL,
 				),
@@ -161,7 +161,7 @@ func CreateCommand(
 			&cli.StringFlag{
 				Name: "https-fake-packet",
 				Usage: `<byte_array>
-				Comma-separated hexadecimal byte array used for fake Client Hello. 
+				Comma-separated hexadecimal byte array used for fake Client Hello.
 				(default: built-in fake packet)`,
 				Value:     MustParseHexCSV([]byte(FakeClientHello)),
 				OnlyOnce:  true,
@@ -203,7 +203,7 @@ func CreateCommand(
 			&cli.BoolFlag{
 				Name: "https-skip",
 				Usage: fmt.Sprintf(`
-				If set, HTTPS traffic will be processed without any DPI bypass techniques. 
+				If set, HTTPS traffic will be processed without any DPI bypass techniques.
 				(default: %v)`,
 					defaultCfg.HTTPS.Skip,
 				),
@@ -217,9 +217,9 @@ func CreateCommand(
 			&cli.Int64Flag{
 				Name: "https-chunk-size",
 				Usage: fmt.Sprintf(`
-				The chunk size (in bytes) for packet fragmentation. This value is only applied 
-				when 'https-split-default' is 'chunk'. While setting the size to '0' internally 
-				disables fragmentation (to avoid division-by-zero errors), you should set 
+				The chunk size (in bytes) for packet fragmentation. This value is only applied
+				when 'https-split-default' is 'chunk'. While setting the size to '0' internally
+				disables fragmentation (to avoid division-by-zero errors), you should set
 				'https-split-default' to 'none' to disable the feature cleanly.
 				(default: %v, max: %v)`,
 					defaultCfg.HTTPS.ChunkSize,
@@ -303,7 +303,7 @@ func CreateCommand(
 			&cli.Int64Flag{
 				Name: "timeout",
 				Usage: fmt.Sprintf(`
-				Timeout for tcp connection in milliseconds. 
+				Timeout for tcp connection in milliseconds.
 				No effect when the value is 0 (default: %v, max: %v)`,
 					defaultCfg.Server.Timeout,
 					math.MaxUint16,
@@ -330,7 +330,7 @@ func CreateCommand(
 		Action: func(ctx context.Context, cmd *cli.Command) error {
 			if cmd.Bool("version") {
 				fmt.Printf("spoofdpi %s %s (%s)\n", version, commit, build)
-				fmt.Println("Official docs at https://spoofdpi.xvzc.dev")
+				fmt.Println("Official docs at https://spoofdpi.umitaltintas.dev")
 				os.Exit(0)
 			}
 

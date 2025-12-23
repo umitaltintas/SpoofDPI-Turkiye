@@ -10,7 +10,7 @@ import (
 	"syscall"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
 )
 
 // bufferPool is a package-level pool of 32KB buffers used by io.CopyBuffer

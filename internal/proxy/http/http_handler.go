@@ -6,10 +6,10 @@ import (
 	"net"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/logging"
-	"github.com/xvzc/SpoofDPI/internal/netutil"
-	"github.com/xvzc/SpoofDPI/internal/proto"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/netutil"
+	"github.com/umitaltintas/SpoofDPI/internal/proto"
 )
 
 type HTTPHandler struct {

@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/miekg/dns"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/dns/addrselect"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/dns/addrselect"
 )
 
 type ResolverKind int

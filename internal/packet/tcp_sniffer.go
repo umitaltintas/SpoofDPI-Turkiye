@@ -9,9 +9,9 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/cache"
-	"github.com/xvzc/SpoofDPI/internal/logging"
-	"github.com/xvzc/SpoofDPI/internal/session"
+	"github.com/umitaltintas/SpoofDPI/internal/cache"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/session"
 )
 
 var _ Sniffer = (*TCPSniffer)(nil)

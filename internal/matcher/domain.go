@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
 )
 
 // node represents a single node in the radix tree implementation.

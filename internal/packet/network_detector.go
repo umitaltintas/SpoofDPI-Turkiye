@@ -10,7 +10,7 @@ import (
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/netutil"
+	"github.com/umitaltintas/SpoofDPI/internal/netutil"
 )
 
 var dnsServers = []net.IPAddr{

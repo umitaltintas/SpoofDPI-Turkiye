@@ -6,7 +6,7 @@ import (
 
 	"github.com/miekg/dns"
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
 )
 
 var _ Resolver = (*SysResolver)(nil)

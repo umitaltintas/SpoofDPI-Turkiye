@@ -34,7 +34,7 @@
           ];
           meta = {
             description = "Simple and fast anti-censorship tool written in Go";
-            homepage = "https://github.com/xvzc/SpoofDPI";
+            homepage = "https://github.com/umitaltintas/SpoofDPI";
             license = pkgs.lib.licenses.asl20;
           };
         };

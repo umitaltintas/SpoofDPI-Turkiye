@@ -2,7 +2,7 @@
 set -e
 
 # Configuration
-OWNER="xvzc"
+OWNER="umitaltintas"
 REPO="SpoofDPI"
 BIN_NAME="spoofdpi"
 INSTALL_PATH="/usr/local/bin"

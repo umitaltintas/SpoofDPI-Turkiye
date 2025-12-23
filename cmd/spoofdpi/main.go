@@ -10,17 +10,17 @@ import (
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/xvzc/SpoofDPI/internal/cache"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/desync"
-	"github.com/xvzc/SpoofDPI/internal/dns"
-	"github.com/xvzc/SpoofDPI/internal/logging"
-	"github.com/xvzc/SpoofDPI/internal/matcher"
-	"github.com/xvzc/SpoofDPI/internal/packet"
-	"github.com/xvzc/SpoofDPI/internal/proxy"
-	"github.com/xvzc/SpoofDPI/internal/proxy/http"
-	"github.com/xvzc/SpoofDPI/internal/session"
-	"github.com/xvzc/SpoofDPI/internal/system"
+	"github.com/umitaltintas/SpoofDPI/internal/cache"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/desync"
+	"github.com/umitaltintas/SpoofDPI/internal/dns"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/matcher"
+	"github.com/umitaltintas/SpoofDPI/internal/packet"
+	"github.com/umitaltintas/SpoofDPI/internal/proxy"
+	"github.com/umitaltintas/SpoofDPI/internal/proxy/http"
+	"github.com/umitaltintas/SpoofDPI/internal/session"
+	"github.com/umitaltintas/SpoofDPI/internal/system"
 )
 
 // Version and commit are set at build time.

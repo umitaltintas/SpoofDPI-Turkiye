@@ -10,15 +10,15 @@ import (
 	"time"
 
 	"github.com/rs/zerolog"
-	"github.com/xvzc/SpoofDPI/internal/config"
-	"github.com/xvzc/SpoofDPI/internal/dns"
-	"github.com/xvzc/SpoofDPI/internal/logging"
-	"github.com/xvzc/SpoofDPI/internal/matcher"
-	"github.com/xvzc/SpoofDPI/internal/netutil"
-	"github.com/xvzc/SpoofDPI/internal/proto"
-	"github.com/xvzc/SpoofDPI/internal/proxy"
-	"github.com/xvzc/SpoofDPI/internal/ptr"
-	"github.com/xvzc/SpoofDPI/internal/session"
+	"github.com/umitaltintas/SpoofDPI/internal/config"
+	"github.com/umitaltintas/SpoofDPI/internal/dns"
+	"github.com/umitaltintas/SpoofDPI/internal/logging"
+	"github.com/umitaltintas/SpoofDPI/internal/matcher"
+	"github.com/umitaltintas/SpoofDPI/internal/netutil"
+	"github.com/umitaltintas/SpoofDPI/internal/proto"
+	"github.com/umitaltintas/SpoofDPI/internal/proxy"
+	"github.com/umitaltintas/SpoofDPI/internal/ptr"
+	"github.com/umitaltintas/SpoofDPI/internal/session"
 )
 
 type Destination struct {

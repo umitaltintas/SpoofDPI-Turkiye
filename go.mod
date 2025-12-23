@@ -1,4 +1,4 @@
-module github.com/xvzc/SpoofDPI
+module github.com/umitaltintas/SpoofDPI
 
 go 1.24.2
 
